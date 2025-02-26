@@ -3,6 +3,10 @@
 ```bush
 git clone https://github.com/ultralytics/yolov5.git
 ```
+*✔️yolo5 모델은 cuda12 이상 버전 지원X
+```bush
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 * 가상환경에 설치
 ```bush
 cd yolov5
@@ -14,6 +18,8 @@ cd yolov5
 python -m ipykernel install --user --name 가상환경이름 --display-name "커널출력이름"
 python -m ipykernel install --user --name yolo5 --display-name "yolo5"
 ```
+
+
 
 
 ## 1.모델 불러오기 2가지 방법
