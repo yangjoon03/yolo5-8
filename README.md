@@ -28,7 +28,7 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
   * 로컬
   * pytorch hub
 
-## 2.
+## 2.yaml 파일 만들기
 
 ## 3.
 
