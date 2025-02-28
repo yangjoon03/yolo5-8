@@ -4,7 +4,7 @@
 git clone https://github.com/ultralytics/yolov5.git
 ```
 * ✔️yolo5 모델은 cuda12 이상 버전 지원X , 호환된다고 하더라도 되지 않는다면 계속 낮춰서 해보자.
-* 정신건강에 좋다.
+* 해결하지 않는게 정신건강에 좋다.
 ```bush
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118                     #cuda 11.8
 conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge #cuda 11.3
