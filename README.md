@@ -77,3 +77,6 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
 
 ## 4.훈련
 * 주피터 노트북에서 하는 것이 아닌 bush에서 진행을 하게 된다.
+
+
+[face recognition]: https://github.com/yangjoon03/Face_recognition
