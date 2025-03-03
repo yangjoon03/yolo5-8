@@ -1,6 +1,6 @@
 ## 서론
 * yolo 모델은 object detection모델
-* [face recognition]은 object detection + CNN을 경합하여 제작하였음.
+* [face recognition]은 object detection + CNN을 결합하여 제작하였음.
 * 각 얼굴을 object로 하여 훈련
 
 ## yolo5 기본 세팅
