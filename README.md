@@ -35,7 +35,7 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
 
 ## 2.디렉토리 구조
 ```bush
-dataset/
+📁dataset/
 │── 📁images/
 │   ├── 📁train/  # 훈련 이미지
 │   │   ├── img_1.jpg
