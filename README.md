@@ -33,9 +33,45 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
   * 로컬
   * pytorch hub
 
-## 2.yaml 파일 만들기
+## 2.디렉토리 구조
+```bush
+dataset/
+│── images/
+│   ├── train/  # 훈련 이미지
+│   │   ├── img_1.jpg
+│   │   ├── img_2.jpg
+│   │   ├── ...
+│   ├── val/    # 검증 이미지
+│   │   ├── img_1001.jpg
+│   │   ├── img_1002.jpg
+│   │   ├── ...
+│   ├── test/   # 테스트 이미지 (선택사항)
+│       ├── img_2001.jpg
+│       ├── img_2002.jpg
+│── labels/
+│   ├── train/  # 훈련 데이터 라벨
+│   │   ├── img_1.txt
+│   │   ├── img_2.txt
+│   │   ├── ...
+│   ├── val/    # 검증 데이터 라벨
+│   │   ├── img_1001.txt
+│   │   ├── img_1002.txt
+│   │   ├── ...
+│   ├── test/   # 테스트 데이터 라벨 (선택사항)
+│       ├── img_2001.txt
+│       ├── img_2002.txt
+│── data.yaml  # 데이터 설정 파일
+```
 
-## 3.
+## 3.라벨
+* 텍스트 파일에는 라벨과 데이터의 이미지 좌표와 크기 정보가 들어가 있음.
+
+
+
+|클래스 ID|x_center|y_center|width	height|
+|:---:|:---:|:---:|:---:|
+|0|0.5|0.3|0.4|
+|1|0.2|0.1|0.2|
 
 
 ## 4.훈련
