@@ -1,3 +1,7 @@
+## 서론
+* yolo 모델은 object detection모델
+* [face recognition]은 object detection + CNN을 경합하여 제작.
+
 ## yolo5 기본 세팅
 * 모델 설치
 ```bush
