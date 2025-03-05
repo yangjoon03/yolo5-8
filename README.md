@@ -78,14 +78,15 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
 
 ## 4.훈련
 * 주피터 노트북에서 하는 것이 아닌 bush에서 진행을 하게 된다.
+* s m l x 로 훈련이 가능하다.
 ```bush
 python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data "yaml 경로" --weights yolov5s.pt --device 0
 
 ```
 
 ## 5. 결과
-* object + detection에 비해 좋은 결과를 나타내지는 못하였음. s 기준
-* l사이즈 크기는 3시간 학습 s에 비해 좋지 않은 결과를 나타냄. 과적합.
+* object detection + CNN 보다 낮은 정확도를 보임.
+* 속도 측면에서는 더 빠른 결과를 나타냄.
 
 
 
