@@ -89,6 +89,7 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 * 속도 측면에서는 더 빠르다.
 * CNN 데이터로 훈련으로는 좋은 결과를 내기 힘들다.
 * 적은 이미지 데이터셋으로 정면이미지를 학습 시켰을 경우 90% 정답률을 보였다.
+* recognition 역할 보다는 detection의 역할을 좀 더 수행을 하고 있는 것으로 추측됨.
 * ![image](https://github.com/user-attachments/assets/4d4d5e4c-2615-4375-986d-39f6d7bcff25)
 
 
