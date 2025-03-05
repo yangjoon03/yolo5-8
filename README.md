@@ -85,7 +85,7 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 
 ## 5. 결과
 * object + detection에 비해 좋은 결과를 나타내지는 못하였음. s 기준
-* l 사이즈 모델 훈련 시간 매우 김. 3시간째....
+* l사이즈 크기는 3시간 학습 s에 비해 좋지 않은 결과를 나타냄. 과적합.
 
 
 
