@@ -83,5 +83,10 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 
 ```
 
+## 5. 결과
+* object + detection에 비해 좋은 결과를 나타내지는 못하였음. s 기준
+
+
+
 
 [face recognition]: https://github.com/yangjoon03/Face_recognition
