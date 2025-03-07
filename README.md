@@ -70,10 +70,10 @@ python -m ipykernel install --user --name yolo5 --display-name "yolo5"
 *  txt파일을 활용하여 바운딩 박스로 표시
 *  해당이미지에는 키보드,마우스 이미지가 있어 2개의 클래스의 정보가 담겨져 있다.
 
-|클래스 ID|x_center|y_center|width	height|
+|클래스 ID|x_center|y_center|width|	height|
 |:---:|:---:|:---:|:---:|
-|0|0.5|0.3|0.4|
-|1|0.2|0.1|0.2|
+|0|0.5|0.3|0.4|0.4|
+|1|0.2|0.1|0.2|0.2|
 
 
 ## 4.훈련
@@ -98,7 +98,7 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 ___
 
 ## yolo8
-* yolo 모델에서는 학 클래스당 1500장의 이미지를 권장.[ultralytics]
+* yolo 모델에서는 한 클래스당 1500장의 이미지를 권장.[ultralytics]
 * 클래스당 100~160장의 이미지로는 한계가 보였음.
 * 정면을 마주보고 있는 환경에서는 10장의 이미지로도 90% 이상의 정확도를 보였음.
 * detection + CNN에 비해 같은 정면 이미지 데이터셋이여도 낮은 정확도를 보였음.
