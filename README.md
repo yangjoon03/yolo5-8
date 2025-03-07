@@ -123,6 +123,8 @@ yolo train data= 경로.yaml model=yolo8s.yaml epochs= batch= lr0=
   ## 3.결과
   * 정확도가 조금더 올라간 모습 m모델 사용
   * 하지만 정국 같은 경우에는 여러개의 클래스로 예측을 하고 있다.
+* 정면을 바라보고있는 데이터셋은 10장으로도 충분히 분류가 가능.
+
   ![image](https://github.com/user-attachments/assets/814dffbf-506f-49ef-878d-206a6deef909)
 
 
