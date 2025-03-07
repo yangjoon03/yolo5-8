@@ -95,6 +95,8 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 
 
 
+___
+
 ## yolo8
 * yolo 모델에서는 학 클래스당 1500장의 이미지를 권장.[ultralytics]
 * 클래스당 100~160장의 이미지로는 한계가 보였음.
@@ -103,9 +105,6 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 * ✔️10장의 이미지 같은 환경이라면 마스크,헤어스타일 변화 등의 이유만 아니면 사용이 가능
 
 
-
-
-___
 
 ## 1.yolo8 기본 세팅
 ```bush
