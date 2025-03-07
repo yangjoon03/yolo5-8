@@ -101,6 +101,19 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 * 정면을 마주보고 있는 환경에서는 10장의 이미지로도 90% 이상의 정확도를 보였음.
 * detection + CNN에 비해 같은 정면 이미지 데이터셋이여도 낮은 정확도를 보였음.
 * ✔️10장의 이미지 같은 환경이라면 마스크,헤어스타일 변화 등의 이유만 아니면 사용이 가능
+
+
+## yolo8 기본 세팅
+```bush
+pip install ultralytics
+```
+* 라벨링 작업은 동일함.
+
+## train
+```bush
+yolo train data= 경로.yaml model=yolo8s.yaml epochs= batch= lr0=
+
+```
   
 
 
