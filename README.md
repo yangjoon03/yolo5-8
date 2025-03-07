@@ -95,4 +95,16 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 
 
 
+## yolo8
+* yolo 모델에서는 학 클래스당 1500장의 이미지를 권장.[ultralytics]
+* 클래스당 100~160장의 이미지로는 한계가 보였음.
+* 정면을 마주보고 있는 환경에서는 10장의 이미지로도 90% 이상의 정확도를 보였음.
+* detection + CNN에 비해 같은 정면 이미지 데이터셋이여도 낮은 정확도를 보였음.
+* ✔️10장의 이미지 같은 환경이라면 마스크,헤어스타일 변화 등의 이유만 아니면 사용이 가능
+  
+
+
+
+
 [face recognition]: https://github.com/yangjoon03/Face_recognition
+[ultralytics]: https://docs.ultralytics.com/ko/yolov5/tutorials/tips_for_best_training_results/
