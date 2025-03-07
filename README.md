@@ -115,7 +115,13 @@ pip install ultralytics
 yolo train data= 경로.yaml model=yolo8s.yaml epochs= batch= lr0=
 
 ```
-  
+
+
+  ## 결과
+  * 정확도가 조금더 올라간 모습 m모델 사용
+  * 하지만 여러개의 정국 같은 경우에는 여러개의 클래스로 예측을 하고 있다.
+  ![image](https://github.com/user-attachments/assets/814dffbf-506f-49ef-878d-206a6deef909)
+
 
 
 
