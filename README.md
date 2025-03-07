@@ -108,6 +108,7 @@ python "C:/Users/ailab/yolov5/train.py" --img 640 --batch 32 --epochs 100 --data
 pip install ultralytics
 ```
 * 라벨링 작업은 동일함.
+* 가상환경 , install 등 동일함.
 
 ## train
 ```bush
